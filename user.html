@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🏥 HealthCare
+        </div>
+
+        <nav>
+
+            <a href="user.html">
+                Dashboard
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+            <a href="#" onclick="logout()">
+                Logout
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Dashboard -->
+
+    <main class="dashboard">
+
+        <div class="dashboard-header">
+
+            <div>
+
+                <h1>
+                    Welcome, <span id="userName">Patient</span> 👋
+                </h1>
+
+                <p>
+                    Manage your health information
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Cards -->
+
+        <div class="card-grid">
+
+            <div class="dashboard-card">
+
+                <h3>👤 My Profile</h3>
+
+                <p>
+                    View and manage your personal information.
+                </p>
+
+                <br>
+
+                <a href="profile.html" class="btn">
+                    View Profile
+                </a>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <h3>📋 Medical Records</h3>
+
+                <p>
+                    View your medical history and health records.
+                </p>
+
+                <br>
+
+                <a href="records.html" class="btn">
+                    View Records
+                </a>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <h3>📅 Appointments</h3>
+
+                <p>
+                    Book and manage your appointments.
+                </p>
+
+                <br>
+
+                <a href="appointments.html" class="btn">
+                    Appointments
+                </a>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <h3>💊 Prescriptions</h3>
+
+                <p>
+                    View your prescribed medicines.
+                </p>
+
+                <br>
+
+                <a href="records.html" class="btn">
+                    View Prescription
+                </a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="js/user.js"></script>
+
+</body>
+
+</html>
